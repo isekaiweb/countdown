@@ -98,6 +98,7 @@ btnStop.onclick = () => {
   audio.pause();
   audio.currentTime = 0;
   inputWaktu.value = "00:00:00";
+  pesanH1.textContent = "hitung mundur";
   countdown.classList.add("d-none");
   containerMain.classList.remove("d-none");
   clearInterval(intervalCountDown);
